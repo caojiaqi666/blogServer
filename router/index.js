@@ -29,6 +29,9 @@ router.use("/links", require("./links/index"))
 //管理员路由
 router.use("/admin", require("./admin/index"))
 
+// 邮件路由
+router.use("/sendMail", require("./sendMail/index"))
+
 
 module.exports = router
 
